@@ -5,6 +5,10 @@ import { useOnClickOutside } from '../utils';
 
 const AmountOut = () => {
   const [showList, setShowList] = useState(false);
+  const [activeCurrency, setActiveCurrency] = useState('Select');
+  const ref = useRef();
+
+  useOnClickOutside(ref, () => setShowList(false));
 
   return (
     <div className={styles.amountContainer}>
