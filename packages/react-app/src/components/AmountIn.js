@@ -1,4 +1,3 @@
-import { currencyValue } from '@usedapp/core';
 import React, { useState, useEffect, useRef } from 'react';
 import { chevronDown } from '../assets';
 import styles from '../styles';

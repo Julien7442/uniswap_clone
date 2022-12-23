@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { shortenAddress, userEthers, useLookupAddress, useEthers } from '@usedapp/core';
+import { shortenAddress, useLookupAddress, useEthers } from '@usedapp/core';
 import styles from '../styles';
 
 const WalletButton = () => {
