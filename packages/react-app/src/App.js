@@ -16,7 +16,7 @@ const App = () => {
       ;
       <div className={styles.innerContainer}>
         <header className={styles.header}>
-          <img src={uniswapLogo} alt="uniswap logo" className="w-16 h-16 object-contain" />
+          <img src={uniswapLogo} alt="uniswap logo" className="w-32 h-32 object-contain" />
           <WalletButton />
         </header>
         <div className={styles.exchangeContainer}>

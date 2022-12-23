@@ -1,75 +1,29 @@
-# @my-app/react-app
+# Uniswap Clone
 
-This package is a fork of the default app built with [Create React App](https://github.com/facebook/create-react-app).
+![Alt Text](https://i.ibb.co/H7PVDG0/uniclone.jpg)
 
-## Available Scripts
+Welcome to the Uniswap Clone project! This project is a decentralized application (DApp) that allows users to swap cryptocurrencies on the Goerli testnet.
 
-In the project directory, you can run:
+## Requirements
 
-### `yarn start`
+To use the Uniswap Clone DApp, you will need the following:
 
-Runs the app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- A web3-enabled browser, such as Chrome or Firefox
+- The [Metamask](https://metamask.io/) browser extension
+- An account on the Goerli testnet with some testnet ETH and tokens
 
-The page will automatically reload if you make changes to the code.<br>
-You will see the build errors and lint warnings in the console.
+## Contract Address
 
-### `yarn test`
+The Uniswap Clone smart contract has been deployed to the following address on the Goerli testnet:
 
-Runs the test watcher in an interactive mode.<br>
-By default, runs tests related to files changed since the last commit.
+`0x8eCee5a143dD93fEe9FfAfc68DD8525344A199Ca`
 
-[Read more about testing.](https://facebook.github.io/create-react-app/docs/running-tests)
+## Website
 
-### `yarn build`
+You can access the Uniswap Clone DApp at the following URL:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`https://uniswap-clone-jc.netlify.app/`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Technical Details
 
-See the React documentation on [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn react-app:eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` the React app at any time. This command will
-remove the single build dependency from your React package.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right
-into your project so you have full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The Uniswap Clone DApp has been built using [React](https://reactjs.org/) and [Cranq](https://cranq.io/). It uses the Ethereum blockchain to facilitate the token swaps.

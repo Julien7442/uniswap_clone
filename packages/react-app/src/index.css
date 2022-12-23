@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,16 +12,12 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 
 .gradient_btn {
-  background: linear-gradient(
-    103.91deg,
-    #9b51e0 21.01%,
-    rgba(48, 129, 237, 0.8) 100%
-  );
+  background: linear-gradient(103.91deg, #9b51e0 21.01%, rgba(48, 129, 237, 0.8) 100%);
 }
 
 .pink_gradient {
@@ -32,7 +28,7 @@ input[type="number"] {
   height: 123px;
   border-radius: 50%;
 
-  background: #fb37ff;
+  background: #bb185b;
   filter: blur(200px);
 }
 
@@ -49,11 +45,5 @@ input[type="number"] {
 }
 
 .gradient-border {
-  background: linear-gradient(
-    168.82deg,
-    #fb37ff 1.7%,
-    rgba(155, 111, 238, 0) 27.12%,
-    rgba(123, 127, 234, 0) 61.28%,
-    #1bb2de 99.52%
-  );
+  background: linear-gradient(168.82deg, #fb37ff 1.7%, rgba(155, 111, 238, 0) 27.12%, rgba(123, 127, 234, 0) 61.28%, #1bb2de 99.52%);
 }
