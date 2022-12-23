@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Uniswap Clone
 
 ![Alt Text](https://i.ibb.co/H7PVDG0/uniclone.jpg)
