@@ -7,8 +7,8 @@ import { parseUnits } from 'ethers/lib/utils';
 
 import { ROUTER_ADDRESS } from '../config';
 
-function Exchange() {
+const Exchange = ({ pools }) => {
   return <div>Exchange</div>;
-}
+};
 
 export default Exchange;
