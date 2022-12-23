@@ -6,8 +6,8 @@ export const getFactoryInfo = async (factoryAddress, web3) => {
 
   const factoryInfo = {
     fee: await factory.methods.feeTo().call(),
-    feeToSetter: await factory.methods.fee().call(),
-    allPairsLength: await factory.methods.fee().call(),
+    feeToSetter: await factory.methods.feeToSetter().call(),
+    allPairsLength: await factory.methods.allPairsLength().call(),
     allPairs: [],
   };
 
